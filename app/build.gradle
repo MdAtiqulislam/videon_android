@@ -1,0 +1,148 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    namespace= "com.w3engineers.core.videon"
+    compileSdkVersion 36
+
+    defaultConfig {
+        applicationId "com.w3engineers.core.videon"
+        manifestPlaceholders = [
+                onesignal_app_id: '05a27b1c-919b-4c28-972c-4331b5aa2c33',
+                onesignal_google_project_number: 'REMOTE'
+        ]
+
+        minSdkVersion 23
+        targetSdkVersion 34
+        versionCode 20
+        versionName "2.0.0"
+        multiDexEnabled true
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    lintOptions {
+        abortOnError false
+        disable 'TypographyFractions','TypographyQuotes'
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // ✅ Clean sourceSets
+
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res/layouts/splash',
+                    'src/main/res/layouts/videodetails',
+                    'src/main/res/layouts/util',
+                    'src/main/res/layouts/login',
+                    'src/main/res/layouts/nologin',
+                    'src/main/res/layouts/signup',
+                    'src/main/res/layouts/home',
+                    'src/main/res/layouts/channellist',
+                    'src/main/res/layouts/setting',
+                    'src/main/res/layouts/seeallvideos',
+                    'src/main/res/layouts/editprofile',
+                    'src/main/res/layouts/myprofile',
+                    'src/main/res/layouts/favourite',
+                    'src/main/res/layouts/playlist',
+                    'src/main/res/layouts/searchmovies',
+                    'src/main/res/layouts/forgotpassword',
+                    'src/main/res/layouts/aboutus',
+                    'src/main/res/layouts/privacypolicy',
+                    'src/main/res/layouts/createnewpassword',
+                    'src/main/res/layouts/termsofpolicy',
+                    'src/main/res/layouts/empty',
+                    'src/main/res/layouts',
+                    'src/main/res/layouts/loadingerror',
+                    'src/main/res/drawable',
+                    'src/main/res',
+                    'res'
+            ]
+        }
+    }
+
+
+   /* sourceSets {
+        main {
+            // Only extra resource folders if you really need, otherwise default res/ is enough
+            // res.srcDirs += ['src/main/res/layouts']
+        }
+    }*/
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.4.0'
+    implementation 'com.google.android.material:material:1.13.0'
+
+    //implementation 'com.wang.avi:library:2.1.3'
+
+
+    // Paging
+    implementation 'androidx.paging:paging-runtime:3.4.1'
+
+    // Retrofit & Gson
+    implementation 'com.squareup.retrofit2:retrofit:3.0.0'
+    implementation 'com.squareup.retrofit2:converter-gson:3.0.0'
+    implementation 'com.google.code.gson:gson:2.13.2'
+
+    // Firebase & Ads
+    implementation platform('com.google.firebase:firebase-bom:34.9.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.android.gms:play-services-auth:21.5.0'
+    implementation 'com.google.android.gms:play-services-ads:24.9.0'
+
+    // Facebook Login
+    implementation 'com.facebook.android:facebook-login:18.1.3'
+
+    // OneSignal SDK (version 3.x for OSNotificationOpenResult compatibility)
+    implementation 'com.onesignal:OneSignal:4.8.6'
+
+    implementation 'com.github.ed-george:AndroidVimeoExtractor:1.1.2'
+
+
+    // UI & Utils
+    implementation 'com.github.bumptech.glide:glide:5.0.5'
+    annotationProcessor 'com.github.bumptech.glide:compiler:5.0.5'
+    implementation 'com.mikhaellopez:circularimageview:4.3.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    
+    // Apache Commons
+    implementation 'org.apache.commons:commons-collections4:4.5.0'
+    
+    // ExoPlayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.19.1'
+    
+    // Extractors
+    implementation 'com.github.HaarigerHarald:android-youtubeExtractor:2.1.0'
+    
+   implementation project(':YouTubeAndroidPlayerApi')
+
+    implementation 'com.github.w3-engineers:strom:0.0.14'
+
+   // implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:13.0.0'
+
+}

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app level values-->
+    <string name="app_name">华美剧院</string>
+
+    <string name="file_provider_authority">io.left.core.videon.fileprovider</string>
+    <string name="file_name_profile_image" translatable="false">profile_image</string>
+    <string name="error_picking_image" translatable="false">Could not pick image</string>
+    <string name="error_cropping_image" translatable="false">Could not crop image</string>
+    <string name="error_storage_permission_is_denied" translatable="false">Storage permission is needed</string>
+    <!--User entry-->
+    <string name="user_inserted_confirmation" translatable="false">User %s inserted</string>
+    <string name="user_inserted_empty_message" translatable="false">Please enter your info</string>
+    <string name="remote_user_call_with_null_api" translatable="false">Please enter your info</string>
+    <!-- Admin panel api token credential -->
+    <!--Change this token according to your admin panel configuration -->
+    <string name="api_token_value" translatable="false">www</string>
+    <string name="fb_login_protocol_scheme">fb2360986920713680</string>
+
+    <string name="insert">إدراج</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="update">تحديث</string>
+    <string name="name">اسم</string>
+    <string name="address">عنوان</string>
+    <string name="add_user">Add user</string>
+    <string name="framework">FRAMEWORK</string>
+    <string name="show_data">Show data from DB</string>
+    <string name="save_data">Save Data in DB</string>
+    <string name="add_item">Add Item</string>
+    <string name="delete_confirmation">هل تريد أن تحذف؟</string>
+
+
+    <!--have to delete start-->
+    <string name="action_settings">إعدادات</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie. Fusce quis mauris a enim sollicitudin ultrices non eget velit. Aliquam eu pulvinar enim. Praesent libero nisl, ultricies vel maximus eu, maximus et nisi. Phasellus pharetra nec ligula vitae mollis. Quisque porttitor ornare magna, Vivamus sodales in ligula at sodales.Sed pulvinar fermentum risus ac viverra. Cras laoreet ligula quam, ac lacinia nisl elementum in. Aenean velit arcu, euismod a venenatis non, pulvinar pulvinar massa.</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="favourite">مفضل</string>
+    <string name="downloaded" translatable="false">تم التنزيل</string>
+    <string name="more" translatable="false">أكثر</string>
+    <string name="settings" translatable="false">إعدادات</string>
+    <!--end-->
+
+    <string name="error_facebook_account_id_is_null" translatable="false">"Facebook Null"</string>
+    <!--<string name="share_message">Hi, I am watching this video on Videon App. To download the app follow the link: </string>-->
+    <string name="share_message">Hi, I am watching this video on Videon App.Download the app from playstore:  </string>
+    <string name="facebook_login_text">تسجيل الدخول باستخدام الفيسبوك</string>
+    <string name="google_login_text">تسجيل الدخول عبر جوجل</string>
+    <string name="text_or">أو</string>
+    <string name="text_email">بريد الالكتروني</string>
+    <string name="text_password">كلمه السر</string>
+    <string name="text_sign_in">تسجيل الدخول</string>
+    <string name="sign_up_message">سجل</string>
+    <string name="promt_login_message">لم تسجل الدخول؟</string>
+    <string name="text_login">تسجيل الدخول</string>
+    <string name="text_username">اسم المستخدم</string>
+    <string name="text_confirm_password">تأكيد كلمة المرور</string>
+    <string name="text_sign_up">سجل</string>
+    <string name="already_account_message">هل لديك حساب؟</string>
+    <string name="text_forgot_password_message">نسيت رقمك السري؟</string>
+    <string name="facebook_app_id">424490308752204</string>
+    <string name="text_home_title">华美剧院</string>
+    <string name="text_home_search">&#160;Search</string>
+    <string name="home_live_tv">بث تلفزيوني مباشر</string>
+    <string name="home_featured">متميز</string>
+    <string name="text_home_most_popular">الأكثر شهرة</string>
+    <string name="text_game_thrones">لعبة عروش</string>
+    <string name="text_tv_series">مسلسل تلفزيونى</string>
+    <string name="home_text_most_recent">الأحدث</string>
+
+    <!--setting page-->
+    <string name="Setting_text">إعدادات</string>
+    <string name="setting_push_notification">دفع الإخطار</string>
+    <string name="setting_text_about_us">معلومات عنا</string>
+    <string name="setting_text_contact_us">اتصل بنا</string>
+    <string name="setting_privacy_policy"><![CDATA[سياسة الخصوصية]]></string>
+    <string name="setting_sign_out">خروج</string>
+    <string name="setting_sign_in">تسجيل الدخول</string>
+    <!--edit profile-->
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="edit_profile_full_name">Full Name</string>
+    <string name="edit_profile_country">Country</string>
+    <string name="edit_profile_email">Email</string>
+    <string name="edit_profile_change_password">Change password</string>
+    <string name="edit_profile_confirm_password">Confirm Password</string>
+    <string name="video_details_video_title">Video Title</string>
+    <string name="details_rating_4_6" translatable="false">4.6</string>
+    <string name="text_suggested_videos">مقاطع الفيديو المقترحة</string>
+    <string name="video_details_text_rate_this">قيم هذا</string>
+
+    <string name="sample_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="sample_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstital_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="menu_profile">الملف الشخصي</string>
+    <string name="menu_playlist">قائمة التشغيل</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="log_out">خروج</string>
+    <string name="sign_out_warning">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="sign_out_success">Sign Out success</string>
+    <string name="sign_out_failed">Sign Out failed!</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="my_profile_user_name">User Name</string>
+    <string name="my_profile_email">UserEmail@w3engineers.com</string>
+    <string name="search_video_title">Video title</string>
+    <string name="search_videon_movies">Videon movies</string>
+    <string name="search_drama" translatable="false">Drama</string>
+    <string name="search_duration_1h_30m" translatable="false">1h 30m</string>
+    <string name="search_text_1_hour_ago" translatable="false">1 hour ago</string>
+    <string name="text_we_will_send_message" translatable="false">Please enter your email address and we\'ll send you an email to reset your password</string>
+    <string name="forgot_pass_email_address">Email Address</string>
+    <string name="forgot_pass_reset_password">Reset Password</string>
+    <string name="text_old_password">Old password</string>
+    <string name="text_dummy_about_us"><![CDATA[<h1>About Videon</h1> \t\t<h4>A forever-free version of Videon that’s YOURS, and yours for life. Preview and play all you want - there’s lots of videos ( Movie , Drama, Song and funny video) to discover.</h4> \t\t<h4>Let\'s Play!</h4> \t\t<ul> \t\t\t<li>Watch on any android mobile device</li> \t\t\t<li>You can even Download & Watch Offline for lifetime</li> \t\t\t<li>You can set the PLAYLIST and FAVOURITE list</li> \t\t\t<li>FRESH ON THE FEED: Get first dibs on bite-sized videos, offers & more!</li> \t\t\t<li>Everything from LIVE news and music, to lifestyle and events. Stream your favourite channels now on Videon LIVE.</li> \t\t\t<li>Dedicated kids section</li> \t\t</ul>]]></string>
+
+    <string name="text_please_login">الرجاء تسجيل الدخول للوصول إلى ملف التعريف الخاص بك</string>
+    <string name="title_featured_video">مقاطع فيديو مميزة</string>
+    <string name="title_most_popular">مقاطع الفيديو الأكثر شهرة</string>
+    <string name="title_most_recent">أحدث مقاطع الفيديو</string>
+    <string name="text_no_data_found">لاتوجد بيانات</string>
+    <string name="text_write_a_review">أكتب مراجعة</string>
+    <string name="error_code_validation">هناك خطأ ما!</string>
+    <string name="text_resend_code">أعد إرسال الرمز</string>
+    <string name="text_password_reset_msg">إعادة تعيين كلمة المرور بنجاح!</string>
+    <string name="text_password_password_recovery_msg">استعادة كلمة السر</string>
+    <string name="text_remember_me">تذكرنى</string>
+    <string name="text_agreement" translatable="false">Your agree to Videon\'s Privacy Policy</string>
+    <string name="authentication_fail_message_by_api">authorization not successful</string>
+    <string name="text_no_data_found_server" translatable="false">Didn\'t find any  data on server</string>
+    <string name="rate_this_video_dialog">You have rated this video</string>
+    <string name="email_send_message">نرسل رمزًا مكونًا من 4 أرقام إلى عنوان بريدك الإلكتروني</string>
+    <string name="enter_code_hint" translatable="false">Enter Code</string>
+    <string name="proceed">Proceed</string>
+    <string name="welcome_text" translatable="false">مبروك! \ لقد تم تفعيل حسابك.</string>
+    <string name="welcome_text_reset_password" translatable="false">مبروك! \ تمت إعادة تعيين حسابك.</string>
+    <string name="text_password_verification_msg" translatable="false">تأكيد بواسطة البريد الالكتروني</string>
+    <string name="sample_video_duration">02:45</string>
+    <string name="video_download_title" translatable="false">Video url name goes here.mp4</string>
+    <string name="language_change_notification">تغيرت اللغة!</string>
+    <string-array name="lang_array">
+        <item >ENGLISH</item>
+        <item >CHINESE</item>
+        <item >ARABIC</item>
+    </string-array>
+
+
+    <string name="select_videon">Select Video</string>
+    <string name="video_item_title">720p</string>
+    <string name="video_size_text">23mb</string>
+    <string name="enter_link">أدخل الارتباط الخاص بك للتحميل</string>
+    <string name="download_dialog">حفظ</string>
+
+    <string name="channel_list_data_not_found" translatable="false">Data not found</string>
+    <string name="item_channel_movies" translatable="false">Movies</string>
+    <string name="activity_create_new_password" translatable="false">Create New Password</string>
+    <string name="base_button_submit_create_password" translatable="false">Submit</string>
+    <string name="edit_profile_button_update" translatable="false">Update</string>
+    <string name="base_button_login_empty_activity" translatable="false">Login</string>
+    <string name="button_see_all_home">اظهار الكل</string>
+    <string name="button_see_all_featured">اظهار الكل</string>
+    <string name="see_all_most_popular_new">اظهار الكل</string>
+    <string name="see_all_most_recent" >اظهار الكل</string>
+    <string name="text_movies_item_live_tv" >Movies</string>
+    <string name="login_sign_in_toolbar" translatable="false">تسجيل الدخول</string>
+    <string name="privacy_policy_toolbar" translatable="false">سياسة الخصوصية</string>
+    <string name="toolbar_search_movies" translatable="false">نتيجة البحث</string>
+    <string name="item_search_4k_views" translatable="false">4k Views</string>
+    <string name="activity_data_not_found_see_all_new" translatable="false">Data not found</string>
+    <string name="item_4k_views_default_value" translatable="false">4k Views</string>
+    <string name="activity_sign_up_toolbar" translatable="false">سجل</string>
+    <string name="data_copy_message" translatable="false">Keyhash copied</string>
+    <string name="no_items" >Nothing to display</string>
+    <string name="input_dialog_title" >Warning!</string>
+    <string name="input_dialog_message">الرجاء إدخال اسم الملف</string>
+    <string name="videoplayback">VideoPlayBack</string>
+    <string name="live_text" >حي</string>
+    <!-- appid: ca-app-pub-9493916936835427~2724542596 -->
+    <!-- unit id: ca-app-pub-9493916936835427/5470835878 -->
+
+    <string name="password_can_not_empty">لا يمكن أن تكون كلمة المرور فارغة</string>
+    <string name="space_not_allowed">المساحة غير مسموح بها</string>
+
+
+    <string name="input_dialog_box_download_write_filename_to_save">اكتب اسم الملف للحفظ</string>
+    <string name="input_dialog_download_save">حفظ</string>
+    <string name="input_download_cancel">إلغاء</string>
+    <string name="sign_up_privacy_policy_text">أنت توافق على سياسة الخصوصية الخاصة بـ Videon</string>
+    <string name="sign_up_link">link</string>
+    <string name="video_details_current_time_00_23">00:00</string>
+    <string name="video_details_text_time_1h_30m">1h 30m</string>
+    <string name="video_details_count_views_4k">4k</string>
+    <string name="video_details_upload_time_text_view">1 day ago</string>
+    <string name="bottom_sheet_search">Search</string>
+    <string name="dialog_rate_it_text_view">Rate it</string>
+    <string name="diaglog_review_submit">submit</string>
+    <string name="item_suggestion_videos_name">Game thrones</string>
+    <string name="home_menu_title">home</string>
+    <string name="my_profile_title_toolbar">My Profile</string>
+    <string name="menu_my_profile_edit_profile">Edit profile</string>
+
+
+    <string name="sign_up_accept_privacy_policy">يجب عليك قبول سياسة الخصوصية</string>
+    <string name="white_space_not_allowed">المساحة البيضاء غير مسموح بها</string>
+    <string name="sign_up_invalid_email">بريد إلكتروني خاطئ</string>
+    <string name="give_min_six_character">يرجى إعطاء 6 أحرف على الأقل</string>
+    <string name="name_cannot_be_empty">لا يمكن أن يكون الاسم فارغًا</string>
+        <string name="email_can_not_empty">لا يمكن أن يكون البريد الإلكتروني فارغًا</string>
+    <string name="confirm_can_not_empty">تأكيد كلمة المرور لا يمكن أن يكون فارغا</string>
+    <string name="password_isnot_mattched">كلمة المرور غير مطابقة</string>
+    <string name="video_details_already_rated_this_video">لقد قيمت هذا الفيديو سابقا</string>
+    <string name="video_details_video_downloading">يتم تنزيل الفيديو الخاص بك ....</string>
+    <string name="video_details_marked_as_fav">لقد وضعت علامة على هذا الفيديو كمفضل</string>
+    <string name="remove_from_fav">الفيديو المدرجة بالفعل إلى المفضلة.</string>
+    <string name="video_details_added_to_playlist">تمت إضافة هذا الفيديو في قائمة التشغيل الخاصة بك</string>
+
+    <!--rating dialog-->
+    <string name="rating_dialog_hated_it">Hated it</string>
+    <string name="rating_dialog_disliked_it">Disliked it</string>
+    <string name="rating_dialog_it_okay">It\'s ok</string>
+    <string name="rating_dialog_liked_it">Liked it</string>
+    <string name="rating_dialog_love_it">Love it</string>
+
+    <string name="see_all_invalid_link">Invalid link</string>
+    <string name="my_profile_fragment_favourite">مفضل</string>
+    <string name="my_profile_fragment_playlist">قائمة التشغيل</string>
+    <string name="login_with_facebook_button_main">تسجيل الدخول مع الفيسبوك</string>
+    <string name="facebook_sign_out">خروج</string>
+    <string name="edit_profile_did_not_update_any_things">You didn\'t update any things</string>
+    <string name="please_update_all_fields">Please update all fields</string>
+    <string name="edit_profile_update_failed">Profile update failed</string>
+    <string name="logout_success">نجاح!</string>
+    <string name="dialog_ok">حسنا</string>
+    <string name="dialog_confirm_login">تؤكد</string>
+    <string name="dialog_yes_login">نعم</string>
+    <string name="dialog_no_login">لا</string>
+    <string name="forgot_password">هل نسيت كلمة المرور</string>
+    <string name="have_any_account"><![CDATA[ليس لديك حساب؟ <font color=#692fa7><b>Sign Up</b></font>]]></string>
+    <string name="already_have_account_sign_up"><![CDATA[هل لديك حساب؟ <font color=#692fa7><b>Sign In</b></font>]]></string>
+    <string name="sign_up_agree_to_videon">You agree to Videon\'s</string>
+    <string name="sign_up_privacy_policy"><![CDATA[<font color=#692fa7><u><b>Privacy Policy</b></u></font>]]></string>
+    <string name="title_channels">القنوات</string>
+    <string name="details_suggested_tv">اقترح التلفزيون</string>
+    <string name="privacy_policy_desc"><![CDATA[<h2>Privacy Policy</h2> <p> Termify (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Termify. </p> <p>This Privacy Policy applies to our website, https://termify.io, and its associated subdomains (collectively, our “Service”) alongside our application, Termify. By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our Terms of Service. </p> <p><strong>Definitions and key terms</strong></p> <p>To help explain things as clearly as possible in this Privacy Policy, every time any of these terms are referenced, are strictly defined as:</p>  <div><p>Link to privacy policy of third party service providers used by the app</p> <ul><li>Cookie: small amount of data generated by a website and saved by your web browser. It is used to identify your browser, provide analytics, remember information about you such as your language preference or login information.</li> </br> <li>Company: when this policy mentions “Company,” “we,” “us,” or “our,” it refers to Termify that is responsible for your information under this Privacy Policy.</li></br><li>Customer: refers to the company, organization or person that signs up to use the Termify Service to manage the relationships with your consumers or service users.</li></br><li>Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit Termify and use the services.</li></br><li>Personal Data: any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.</li></br><li>Service: refers to the service provided by Termify as described in the relative terms (if available) and on this platform.</li></br><li>Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.</li></br><li>Website: Termify\’s site, which can be accessed via this URL: https://termify.io</li></br><li>You: a person or entity that is registered with Termify to use the Services.</li></br><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p><strong>What Information Do We Collect?</strong></p> <p>We collect information from you when you visit our website, register on our site, place an order, subscribe to our newsletter, respond to a survey or fill out a form.</p> <ul><li>Phone Numbers</li> <li>Email Addresses</li> <li>Name / username</li> <li>Billing Addresses</li></ul> <p><strong>How Do We Use The Information We Collect?</strong></p> <p>Any of the information we collect from you may be used in one of the following ways:</p> <ul><li>To personalize your experience (your information helps us to better respond to your individual needs)</li><li>To improve our website (we continually strive to improve our website offerings based on the information and feedback we receive from you)</li> <li>To improve customer service (your information helps us to more effectively respond to your customer service requests and support needs)</li><li>To process transactions</li><li>To administer a contest, promotion, survey or other site feature</li><li>To send periodic emails</li></ul> <p><strong>How Do We Use Your Email Address?</strong></p> <p>By submitting your email address on this website, you agree to receive emails from us. You can cancel your participation in any of these email lists at any time by clicking on the opt-out link or other unsubscribe option that is included in the respective email. We only send emails to people who have authorized us to contact them, either directly, or through a third party. We do not send unsolicited commercial emails, because we hate spam as much as you do. By submitting your email address, you also agree to allow us to use your email address for customer audience targeting on sites like Facebook, where we display custom advertising to specific people who have opted-in to receive communications from us. Email addresses submitted only through the order processing page will be used for the sole purpose of sending you information and updates pertaining to your order. If, however, you have provided the same email to us through another method, we may use it for any of the purposes stated in this Policy. Note: If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email.</p> <p><strong>How Long Do We Keep Your Information?</strong></p> <p>We keep your information only so long as we need it to provide Termify to you and fulfill the purposes described in this policy. This is also the case for anyone that we share your information with and who carries out services on our behalf. When we no longer need to use your information and there is no need for us to keep it to comply with our legal or regulatory obligations, we\’ll either remove it from our systems or depersonalize it so that we can\'t identify you.</p> <p><strong>How Do We Protect Your Information?</strong></p> <p>We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We offer the use of a secure server. All supplied sensitive/credit information is transmitted via Secure Socket Layer (SSL) technology and then encrypted into our Payment gateway providers database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential. After a transaction, your private information (credit cards, social security numbers, financials, etc.) is never kept on file. We cannot, however, ensure or warrant the absolute security of any information you transmit to Termify or guarantee that your information on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our physical, technical, or managerial safeguards.</p> <p><strong>Your Consent</strong></p> <p>By using our app, registering an account, or making a purchase, you consent to this Privacy Policy.  <p><strong>Cookies</strong></p> <p>A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to personalize the Content that you see on our website. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.</p> <p><strong>Contact Us</strong></p><p>Don\'t hesitate to contact us if you have any questions.</p><ul><li>Via Email: support@termify.io</li><li>Via this Link: https://termify.io/contact</li></ul></p>]]></string>
+
+    <string name="text_all_review">انظر جميع المراجعات</string>
+    <string name="zero_text">0</string>
+    <string name="text_5">/5</string>
+    <string name="zero_ratings">0 ratings</string>
+    <string name="no_data_found">لاتوجد بيانات!</string>
+    <string name="check_net_connection">"يرجى التحقق من اتصال الإنترنت!"</string>
+    <string name="title_review_details">جميع المراجعات</string>
+    <string name="need_sign_in">تحتاج إلى تسجيل الدخول لهذا الإجراء!</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="no_internet_connect">لا يوجد اتصال بالإنترنت</string>
+</resources>

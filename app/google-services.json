@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "774882836651",
+    "firebase_url": "https://videon-222709.firebaseio.com",
+    "project_id": "videon-222709",
+    "storage_bucket": "videon-222709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774882836651:android:9da0609098f92ead",
+        "android_client_info": {
+          "package_name": "com.w3engineers.core.videon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774882836651-fr0e3eslt74thftqc9q25ln4e7okh7kg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.w3engineers.core.videon",
+            "certificate_hash": "e9c85c287534753e54392075bb38b670a4af0268"
+          }
+        },
+        {
+          "client_id": "774882836651-h8hru375uuja84b1h3lgssjlhq7tkai3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.w3engineers.core.videon",
+            "certificate_hash": "8bbf86f73d9054ce2d55d891cc45e3a053b4dde5"
+          }
+        },
+        {
+          "client_id": "774882836651-uae900jdalm4325ktsf7a9imjdivuc8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8mhTt8P9Qsu6xiIv-i6ZUJ66uS5as5nM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774882836651-uae900jdalm4325ktsf7a9imjdivuc8v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "774882836651-tmlt93ahc0j1snndo9tu9l4i93l9ar7n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.w3engineers.videon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
