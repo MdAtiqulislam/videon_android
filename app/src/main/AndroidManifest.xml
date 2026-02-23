@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.w3engineers.core.videon">
+    package="com.huameijuyyan.app">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
         android:required="true" />-->
 
     <application
-        android:name="com.w3engineers.core.videon.ui.VideonApplication"
+        android:name="com.huameijuyyan.app.videon.ui.VideonApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -31,6 +31,9 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
         <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+        <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/sample_app_id" />
 
@@ -38,24 +41,24 @@
             android:name="firebase_crashlytics_collection_enabled"
             android:value="true" />
         <activity
-            android:name=".ui.videodetails.VideoDetailsActivity"
+            android:name="com.huameijuyyan.app.videon.ui.videodetails.VideoDetailsActivity"
             android:screenOrientation="portrait">
 
         </activity>
 
         <activity
-            android:name=".ui.termsofuse.TermsofUseActivity"
+            android:name="com.huameijuyyan.app.videon.ui.termsofuse.TermsofUseActivity"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name=".ui.signup.SignUpActivity"
+            android:name="com.huameijuyyan.app.videon.ui.signup.SignUpActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name="com.huameijuyyan.app.videon.ui.login.LoginActivity"
             android:screenOrientation="portrait" />
         <!--for terms of use simply use that Terms of use activity as the launcher activity-->
         <activity
-            android:name=".ui.home.HomeActivity"
+            android:name="com.huameijuyyan.app.videon.ui.home.HomeActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Launcher"
@@ -68,37 +71,37 @@
 
         </activity>
         <activity
-            android:name=".ui.channellist.ChannelListActivity"
+            android:name="com.huameijuyyan.app.videon.ui.channellist.ChannelListActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.setting.SettingActivity"
+            android:name="com.huameijuyyan.app.videon.ui.setting.SettingActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.seeallvideos.SeeAllVideosActivity"
+            android:name="com.huameijuyyan.app.videon.ui.seeallvideos.SeeAllVideosActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.editprofile.EditProfileActivity"
+            android:name="com.huameijuyyan.app.videon.ui.editprofile.EditProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.myprofile.MyProfileActivity"
+            android:name="com.huameijuyyan.app.videon.ui.myprofile.MyProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.searchmovies.SearchMoviesActivity"
+            android:name="com.huameijuyyan.app.videon.ui.searchmovies.SearchMoviesActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.forgotpassword.ForgotPasswordActivity"
+            android:name="com.huameijuyyan.app.videon.ui.forgotpassword.ForgotPasswordActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".ui.reviewdetails.ReviewDetailsActivity"
+            android:name="com.huameijuyyan.app.videon.ui.reviewdetails.ReviewDetailsActivity"
             android:screenOrientation="portrait" />
 
         <service
-            android:name="com.w3engineers.core.util.VideonFirebaseInstanceIDService"
+            android:name="com.huameijuyyan.app.util.VideonFirebaseInstanceIDService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -107,25 +110,25 @@
 
 
         <service
-            android:name="com.w3engineers.core.util.MyJobService"
+            android:name="com.huameijuyyan.app.util.MyJobService"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <!-- The activity below is needed while cropping images -->
-        <activity android:name=".ui.aboutus.AboutUsActivity" />
+        <activity android:name="com.huameijuyyan.app.videon.ui.aboutus.AboutUsActivity" />
         <activity
-            android:name=".ui.privacypolicy.PrivacyPolicyActivity"
+            android:name="com.huameijuyyan.app.videon.ui.privacypolicy.PrivacyPolicyActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ui.empty.EmptyActivity"
+            android:name="com.huameijuyyan.app.videon.ui.empty.EmptyActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ui.inputpin.InputPinActivity" />
-        <activity android:name=".ui.createnewpassword.CreateNewPasswordActivity" />
-        <activity android:name=".ui.welcome.WelcomeActivity" />
-        <activity android:name=".ui.loadingerror.LoadingErrorActivity" />
-        <activity android:name=".ui.downloadmanager.DownloadManagerActivity"></activity>
+        <activity android:name="com.huameijuyyan.app.videon.ui.inputpin.InputPinActivity" />
+        <activity android:name="com.huameijuyyan.app.videon.ui.createnewpassword.CreateNewPasswordActivity" />
+        <activity android:name="com.huameijuyyan.app.videon.ui.welcome.WelcomeActivity" />
+        <activity android:name="com.huameijuyyan.app.videon.ui.loadingerror.LoadingErrorActivity" />
+        <activity android:name="com.huameijuyyan.app.videon.ui.downloadmanager.DownloadManagerActivity"></activity>
         <activity
-            android:name=".ui.fullscreenactivity.FullScreeActivity"
+            android:name="com.huameijuyyan.app.videon.ui.fullscreenactivity.FullScreeActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.Fullscreen" />
     </application>

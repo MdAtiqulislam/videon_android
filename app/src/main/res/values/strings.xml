@@ -40,6 +40,7 @@
     <string name="settings" translatable="false">Settings</string>
     <!--end-->
     <string name="fb_login_protocol_scheme">fb1045491952320880</string>
+    <string name="facebook_client_token">5f05a27b1c919b4c28972c4331b5aa2c</string>
     <string name="error_facebook_account_id_is_null" translatable="false">"Facebook Null"</string>
     <!--<string name="share_message">Hi, I am watching this video on Videon App. To download the app follow the link: </string>-->
     <string name="share_message">Hi, I am watching this video on Videon App.Download the app from playstore:  </string>
